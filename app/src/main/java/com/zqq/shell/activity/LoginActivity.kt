@@ -4,7 +4,7 @@ import android.os.Bundle
 import com.zqq.shell.R
 
 class LoginActivity :BaseActvity() {
-    
+
 
     override fun initContentView(): Int = R.layout.activity_login
 
