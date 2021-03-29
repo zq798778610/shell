@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="EditTextLayout">
+        <attr name="el_text_size" format="dimension"/>
+        <attr name="el_text_color" format="color|reference"/>
+        <attr name="el_background" format="color|reference"/>
+        <attr name="el_style" format="integer"/>
+        <attr name="el_max_length" format="integer"/>
+        <attr name="el_ispassword" format="boolean"/>
+        <attr name="el_hint" format="string"/>
+        <attr name="el_inputtype">
+            <enum name="test" value="0x00000001" />
+            <enum name="number" value="0x00000002" />
+            <enum name="number_decimal" value="0x00002000" />
+            <enum name="number_password" value="0x00000010" />
+            <enum name="web_password" value="0x000000e0" />
+            <enum name="visable_password" value="0x00000090" />
+            <enum name="variation_password" value="0x00000080" />
+        </attr>
+        <attr name="el_regType">
+            <enum name="phoneCheck" value="1"/>
+            <enum name="passwordCheck" value="2"/>
+        </attr>
+    </declare-styleable>
+
+</resources>
