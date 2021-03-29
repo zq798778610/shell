@@ -15,11 +15,6 @@ import butterknife.OnClick;
 
 class TestClass extends AppCompatActivity {
 
-    @BindView(R.id.et_username)
-    EditText mEtUsername;
-    @BindView(R.id.et_password)
-    EditText mEtPassword;
-
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -27,15 +22,4 @@ class TestClass extends AppCompatActivity {
         ButterKnife.bind(this);
     }
 
-    @OnClick({R.id.et_username, R.id.et_password})
-    public void onClick(View v) {
-        switch (v.getId()) {
-            default:
-                break;
-            case R.id.et_username:
-                break;
-            case R.id.et_password:
-                break;
-        }
-    }
 }
