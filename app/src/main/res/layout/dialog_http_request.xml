@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:minWidth="140dp"
+    android:minHeight="140dp"
+    android:padding="20dp"
+    android:alpha="0.85"
+    android:id="@+id/ll"
+    android:background="@drawable/http_dialog_bg"
+    >
+
+    <ProgressBar
+        android:id="@+id/ll_pb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@android:style/Widget.Holo.ProgressBar.Large"
+        android:indeterminateTint="@color/main_color"
+        />
+    <TextView
+        android:id="@+id/tv"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="获取数据中..."
+        android:textColor="@color/main_color"
+        android:maxLines="1"
+        android:minLines="1"
+        />
+</LinearLayout>
