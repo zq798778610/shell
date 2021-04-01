@@ -60,4 +60,14 @@
             app:el_max_length="11"
             />
     </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:text="登    录"
+        android:background="@drawable/el_background"
+        />
+
 </LinearLayout>

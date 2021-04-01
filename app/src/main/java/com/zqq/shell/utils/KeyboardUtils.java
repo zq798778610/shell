@@ -3,11 +3,15 @@ package com.zqq.shell.utils;
 import android.content.Context;
 import android.view.View;
 import android.view.inputmethod.InputMethodManager;
+import android.widget.Toast;
 
 import java.util.Timer;
 import java.util.TimerTask;
 
-class InputUtils {
+import es.dmoral.toasty.Toasty;
+
+public class KeyboardUtils {
+
     /**
      * 隐藏软键盘
      * 如当前为收起变为弹出,若当前为弹出变为收起
